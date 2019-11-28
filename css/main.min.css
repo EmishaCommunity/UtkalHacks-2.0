@@ -59,7 +59,10 @@ h6 {
 }
 
 #bg {
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* Preserve aspect ratio */
   min-width: 100%;
   min-height: 100%;
 }
@@ -74,10 +77,16 @@ h6 {
   object-fit: cover;
 }
 .rocket {
-  height: 530px;
-  position: relative;
-  top: 200px;
-  left: 530px;
+  position: absolute;
+  top: 280px;
+}
+.rocketdiv img {
+  height: 30px;
+}
+
+.rocketdiv {
+  text-align: center;
+  display: block;
 }
 
 @media (max-width: 768px) {
