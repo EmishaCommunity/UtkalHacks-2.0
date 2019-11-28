@@ -997,9 +997,9 @@ td {
   text-justify: auto;
 }
 
-/* #about {
-    margin-left: 10px;
-} */
+#about {
+  padding-top: 200px;
+}
 
 /* Beta Badge */
 
@@ -1038,4 +1038,8 @@ td {
   top: 0px;
   border-left: 20px solid transparent;
   border-bottom: 20px solid rgb(255, 255, 255);
+}
+
+.philo p {
+  padding-top: 20px;
 }
