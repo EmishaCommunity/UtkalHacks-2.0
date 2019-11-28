@@ -10,7 +10,8 @@ body {
   font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica,
     Arial, sans-serif;
   overflow-x: hidden;
-  background: #000618;
+  background: #000411;
+  /* background: linear-gradient(141deg, #010b2b 0%, #000411 51%, #000000 75%); */
   font-size: 18px;
 }
 
@@ -58,9 +59,7 @@ h6 {
 }
 
 #bg {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   min-width: 100%;
   min-height: 100%;
 }
@@ -73,6 +72,21 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
+}
+.rocket {
+  height: 530px;
+  position: relative;
+  top: 200px;
+  left: 530px;
+}
+
+@media (max-width: 768px) {
+  .rocket {
+    position: absolute;
+    height: 300px;
+    top: 200px;
+    left: 130px;
+  }
 }
 
 p {
@@ -982,3 +996,42 @@ td {
 /* #about {
     margin-left: 10px;
 } */
+
+/* Beta Badge */
+
+.badge {
+  position: fixed;
+  left: -7px;
+  top: 19px;
+  background-color: rgb(255, 255, 255);
+  -webkit-transform: rotate(-45deg) scale(1) skew(0deg) translate(10px);
+  -moz-transform: rotate(-45deg) scale(1) skew(0deg) translate(10px);
+  -o-transform: rotate(-45deg) scale(1) skew(0deg) translate(10px);
+  -ms-transform: rotate(-45deg) scale(1) skew(0deg) translate(10px);
+  transform: rotate(-45deg) scale(1) skew(0deg) translate(10px);
+  text-align: center;
+  color: #203260;
+  padding: 0 0.5em;
+  border-top: 0px;
+  line-height: 20px;
+  margin: 0;
+  border-radius: 0px;
+}
+
+.badge:after {
+  content: " ";
+  position: fixed;
+  right: -19px;
+  top: 0px;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid rgb(255, 255, 255);
+}
+
+.badge:before {
+  content: " ";
+  position: fixed;
+  left: -19px;
+  top: 0px;
+  border-left: 20px solid transparent;
+  border-bottom: 20px solid rgb(255, 255, 255);
+}
