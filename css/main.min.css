@@ -67,26 +67,20 @@ h6 {
   min-height: 100%;
 }
 
-.img-cloud {
-}
-
 .bg {
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
 }
-.rocket {
-  position: absolute;
-  top: 280px;
-}
-.rocketdiv img {
-  position: relative;
-}
 
 .rocketdiv {
   text-align: center;
   display: block;
+}
+
+.rocketdiv img {
+  position: relative;
 }
 
 @media (max-width: 768px) {
