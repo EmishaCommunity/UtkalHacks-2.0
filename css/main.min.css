@@ -231,7 +231,7 @@ section {
   }
 
   #mainNav.navbar-shrink .navbar-eth {
-    color: #203260;
+    color: #111c33;
   }
 
   #mainNav.navbar-shrink .navbar-eth:focus,
@@ -998,6 +998,7 @@ td {
 }
 
 #about {
+  padding-top: 200px;
   text-align: justify;
   text-justify: auto;
 }
