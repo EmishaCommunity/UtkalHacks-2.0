@@ -70,7 +70,7 @@ h6 {
 .img-cloud {
 }
 
-#bg img {
+.bg {
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -81,7 +81,7 @@ h6 {
   top: 280px;
 }
 .rocketdiv img {
-  height: 30px;
+  position: relative;
 }
 
 .rocketdiv {
@@ -90,11 +90,12 @@ h6 {
 }
 
 @media (max-width: 768px) {
-  .rocket {
+  .rocketdiv {
     position: absolute;
-    height: 300px;
-    top: 200px;
-    left: 130px;
+    height: 150px;
+  }
+  .rocketdiv img {
+    height: 350px;
   }
 }
 
