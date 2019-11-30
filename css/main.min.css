@@ -1075,3 +1075,8 @@ td {
     border-color: orange;
   }
 }
+
+.sponsors-logo .atlassian {
+  width: 800px;
+  height: 100px;
+}
