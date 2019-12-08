@@ -496,7 +496,7 @@ header.masthead p {
 }
 
 .card button {
-  border: 1px solid #00a7d3;
+  border: 1px solid rgb(255, 166, 0);
 }
 
 .card button:focus {
@@ -513,7 +513,7 @@ header.masthead p {
 }
 
 #toggle {
-  border: 1px solid #00a7d3;
+  border: 1px solid rgb(255, 166, 0);
   border-radius: 0;
 }
 
@@ -521,7 +521,7 @@ header.masthead p {
   font-family: FontAwesome;
   content: "\f106";
   float: right;
-  color: #00a7d3;
+  color: rgb(255, 166, 0);
   font-size: 1em;
 }
 
@@ -733,8 +733,8 @@ h2 {
 }
 
 .btn-primary {
-  background-color: #00a7d3;
-  border-color: #00a7d3;
+  background-color: rgb(255, 166, 0);
+  border-color: rgb(253, 181, 47);
   padding: 16px 56px !important;
 }
 
@@ -742,12 +742,12 @@ h2 {
 .btn-primary:focus,
 .btn-primary:hover {
   color: #fff;
-  background-color: #0093ba !important;
+  background-color: rgb(253, 181, 47) !important;
 }
 
 .btn-primary:active,
 .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem #00a7d3 !important;
+  box-shadow: 0 0 0 0.2rem rgb(253, 181, 47) !important;
 }
 
 .btn-secondary {
@@ -827,17 +827,17 @@ h2 {
 }
 
 .card-body {
-  background: #203260;
+  background: #000618;
 }
 
 .card-header {
-  background: #203260;
+  background: #000618;
   padding: 1.5rem 2rem;
   height: 5rem;
 }
 
 .card-header:hover {
-  background: #00a7d3;
+  background: rgb(255, 166, 0);
 }
 
 .card-header:first-child {
@@ -845,7 +845,7 @@ h2 {
 }
 
 .panel-body {
-  background: #203260;
+  background: #000618;
   color: #fff;
   font-weight: 300;
   line-height: 1.8rem;
@@ -965,8 +965,8 @@ td {
   width: 15px;
   height: 15px;
   margin: 10px;
-  border: 3px solid #ea7e69;
-  background-color: #ea7e69;
+  border: 3px solid rgb(255, 166, 0);
+  background-color: rgb(255, 166, 0);
 }
 
 .buttons .circle {
