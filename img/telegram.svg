@@ -1,21 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="19px" height="17px" viewBox="0 0 19 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Telegram</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="ETHindia-Team" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1220.000000, -993.000000)">
-        <g id="Group-2" transform="translate(1068.000000, 991.000000)">
-            <g id="Telegram" transform="translate(151.000000, 0.000000)">
-                <g transform="translate(1.000000, 2.000000)" fill-rule="nonzero" id="Layer_1">
-                    <g>
-                        <path d="M15.6607692,15.6176923 C15.6607692,15.6176923 15.25,16.6576923 14.1207692,16.1584615 L7.34461538,10.8969231 L4.88076923,9.69076923 L0.733076923,8.27692308 C0.733076923,8.27692308 0.0961538462,8.04846154 0.0346153846,7.54923077 C-0.0269230769,7.05 0.753076923,6.78 0.753076923,6.78 L17.2423077,0.229230769 C17.2415385,0.228461538 18.5969231,-0.374615385 18.5969231,0.623846154 L15.6607692,15.6176923 Z" id="Shape" fill="#00A7D3"></path>
-                        <path d="M6.82307692,15.4484615 C6.82307692,15.4484615 6.62538462,15.43 6.37846154,14.6392308 C6.13230769,13.8492308 4.87923077,9.69 4.87923077,9.69 L14.8384615,3.28461538 C14.8384615,3.28461538 15.4130769,2.93076923 15.3930769,3.28461538 C15.3930769,3.28461538 15.4953846,3.34692308 15.1876923,3.63846154 C14.88,3.93 7.36384615,10.7715385 7.36384615,10.7715385" id="Shape" fill="#4CCDEF"></path>
-                        <path d="M9.94230769,12.9138462 L7.26230769,15.3884615 C7.26230769,15.3884615 7.05307692,15.5492308 6.82384615,15.4484615 L7.33692308,10.8515385" id="Shape" fill="#0298C0"></path>
-                    </g>
-                </g>
-                <rect id="Rectangle" x="0" y="0" width="20" height="20"></rect>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 19 17" style="enable-background:new 0 0 19 17;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFA600;}
+	.st1{fill:#F9CE8A;}
+	.st2{fill:none;}
+</style>
+<title>Telegram</title>
+<desc>Created with Sketch.</desc>
+<g id="ETHindia-Team" transform="translate(-1220.000000, -993.000000)">
+	<g id="Group-2" transform="translate(1068.000000, 991.000000)">
+		<g id="Telegram" transform="translate(151.000000, 0.000000)">
+			<g id="Layer_1_1_" transform="translate(1.000000, 2.000000)">
+				<g>
+					<path id="Shape" class="st0" d="M15.7,15.6c0,0-0.4,1-1.5,0.5l-6.8-5.3L4.9,9.7L0.7,8.3c0,0-0.6-0.2-0.7-0.7
+						C0,7.1,0.8,6.8,0.8,6.8l16.5-6.6c0,0,1.4-0.6,1.4,0.4L15.7,15.6z"/>
+					<path id="Shape_1_" class="st1" d="M6.8,15.4c0,0-0.2,0-0.4-0.8c-0.2-0.8-1.5-4.9-1.5-4.9l10-6.4c0,0,0.6-0.4,0.6,0
+						c0,0,0.1,0.1-0.2,0.4c-0.3,0.3-7.8,7.1-7.8,7.1"/>
+					<path id="Shape_2_" class="st0" d="M9.9,12.9l-2.7,2.5c0,0-0.2,0.2-0.4,0.1l0.5-4.6"/>
+				</g>
+			</g>
+			<rect id="Rectangle" class="st2" width="20" height="20"/>
+		</g>
+	</g>
+</g>
 </svg>

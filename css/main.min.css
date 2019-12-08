@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #2ca0f7;
+  color: rgb(255, 166, 0);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -164,7 +164,7 @@ section {
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
   font-size: 1rem;
   font-weight: 500;
-  color: #868e96;
+  color: rgb(209, 137, 4);
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
@@ -174,7 +174,7 @@ section {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #00a7d3 !important;
+  color: rgb(209, 137, 4) !important;
   background-color: transparent;
 }
 
@@ -241,7 +241,7 @@ section {
 
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #868e96;
+    color: rgb(255, 166, 0);
   }
 
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover,
@@ -434,7 +434,7 @@ header.masthead p {
 }
 
 .schedule-box .subtitle {
-  color: #00a7d3;
+  color: rgb(255, 166, 0);
   font-size: 14px;
   font-weight: 900;
 }
@@ -705,7 +705,7 @@ header.masthead p {
 }
 
 ::selection {
-  background: #00a9db;
+  background: rgb(255, 166, 0);
 }
 
 h2 {
