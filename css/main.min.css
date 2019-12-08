@@ -332,7 +332,7 @@ header.masthead p {
   padding-right: 36px;
   padding-left: 30px;
   font-weight: 500;
-  color: #00a7d3 !important;
+  color: rgb(255, 166, 0) !important;
 }
 
 .schedule-box a.nav-link:hover {
@@ -775,7 +775,7 @@ h2 {
 }
 
 .speaker-card:hover .speaker-card-header {
-  background: #172341 !important;
+  background: rgb(221, 145, 4) !important;
 }
 
 .speaker-card-img-top {
@@ -785,7 +785,7 @@ h2 {
 }
 
 .speaker-card-body {
-  background: #203260;
+  background: rgb(241, 158, 2);
 }
 
 .speaker-card-header {
