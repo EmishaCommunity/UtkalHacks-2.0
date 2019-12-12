@@ -1062,11 +1062,6 @@ td {
   }
 }
 
-.sponsors-logo .atlassian {
-  width: 800px;
-  height: 100px;
-}
-
 #devfolio-apply-now {
   -ms-flex-align: center;
   -webkit-box-align: center;
@@ -1093,4 +1088,10 @@ td {
 
 #devfolio-apply-now:hover {
   background-color: #f19d01 !important;
+}
+
+#sponsors-box .titlespons img {
+  max-width: 380px;
+  max-height: 180px;
+  min-height: 64px;
 }
