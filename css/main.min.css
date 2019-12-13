@@ -1090,8 +1090,13 @@ td {
   background-color: #f19d01 !important;
 }
 
-#sponsors-box .titlespons img {
+#sponsors-box .firsttier img {
   max-width: 380px;
+  max-height: 180px;
+  min-height: 64px;
+}
+#sponsors-box .secondtier img {
+  max-width: 480px;
   max-height: 180px;
   min-height: 64px;
 }
