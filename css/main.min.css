@@ -85,7 +85,6 @@ h6 {
 
 @media (max-width: 768px) {
   .rocketdiv {
-    position: absolute;
     height: 150px;
   }
   .rocketdiv img {
