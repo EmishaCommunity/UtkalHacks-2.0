@@ -71,6 +71,10 @@
         integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.min.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://www.jacklmoore.com/colorbox/example1/colorbox.css"
+  />
 </head>
 
 <body id="page-top">
@@ -1464,6 +1468,22 @@
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA06IMZ1lEx9XrzTDcLPALTeojJAl0UY5k&amp;callback=initMap"
         async defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="https://www.jacklmoore.com/colorbox/jquery.colorbox.js"></script>
+        <script>
+          function openColorBox() {
+            $.colorbox({
+              iframe: true,
+              innerWidth: 630,
+              innerHeight: 570,
+              scrolling: false,
+              href: "https://souravinsights.github.io/HNY2020/"
+              /*overlayClose: false*/
+            });
+          }
+    
+          setTimeout(openColorBox, 5000);
+        </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154002430-1"></script>
