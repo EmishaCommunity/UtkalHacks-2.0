@@ -1160,19 +1160,19 @@ td {
     /* padding: 2px; */
     font-size: 1.2rem;
     color: #f19d01;
-    margin-left: 1.2em;
+    margin-left: 2.6em;
   }
 
   .quote-text {
     text-align: center;
     padding: auto;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
   }
 
   .quote-right {
     font-size: 1.2rem;
     color: #f19d01;
-    margin-left: 18em;
+    margin-left: 16em;
   }
 }
 
