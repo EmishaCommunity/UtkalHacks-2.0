@@ -557,7 +557,7 @@ header.masthead p {
   padding: 1rem 2rem 0 2rem;
   text-align: left;
   padding-bottom: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .arrow,
@@ -1131,6 +1131,3 @@ td {
 /* *new section styles end */
 
 /* Custom Headings Styles */
-
-
-
