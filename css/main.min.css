@@ -325,6 +325,18 @@ header.masthead p {
   }
 }
 
+
+.td-hk-broken-img {
+  margin-left: 9.9rem;
+}
+
+@media (max-width: 768px) {
+  .td-hk-broken-img {
+    margin-left: 0rem;
+  }
+}
+
+
 .speakers-box {
   max-width: 400px;
 }
