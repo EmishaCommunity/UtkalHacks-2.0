@@ -1128,18 +1128,53 @@ td {
   min-height: 64px;
 }
 
-
 /* *new section styles start */
-.nw-section {
-  /* width: 100%; */
 
+.quote-text {
+  text-align: center;
+  padding: auto;
+  font-size: 2.5rem;
 }
 
-.vk-moon-div {}
+.quote-left {
+  /* position: absolute; */
+  /* padding: 2px; */
+  font-size: 2.2rem;
+  color: #f19d01;
+  margin-left: 5.2em;
+}
 
+.quote-right {
+  font-size: 2.2rem;
+  color: #f19d01;
+  margin-left: 26em;
+}
 
-@media (max-width: 768px) {}
+.text-span {
+  color: #f19d01;
+}
+
+@media (max-width: 768px) {
+  .quote-left {
+    /* position: absolute; */
+    /* padding: 2px; */
+    font-size: 1.2rem;
+    color: #f19d01;
+    margin-left: 1.2em;
+  }
+
+  .quote-text {
+    text-align: center;
+    padding: auto;
+    font-size: 1.1rem;
+  }
+
+  .quote-right {
+    font-size: 1.2rem;
+    color: #f19d01;
+    margin-left: 18em;
+  }
+}
 
 /* *new section styles end */
-
 /* Custom Headings Styles */
