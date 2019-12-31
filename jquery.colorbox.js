@@ -1,7 +1,5 @@
 (function ($, document, window) {
 	var
-	// Default settings object.
-	// See http://jacklmoore.com/colorbox for details.
 	defaults = {
 		// data sources
 		html: false,
