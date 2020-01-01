@@ -1210,11 +1210,12 @@ td {
   /* } */
 
   .bg-01 {
-    position: absolute;
+    visibility: none;
+    /* position: absolute;
     width: 400px;
     height: 200px;
     margin-left: 5rem;
-    top: 26rem !important;
+    top: 26rem !important; */
   }
 }
 
