@@ -1177,5 +1177,19 @@ td {
   }
 }
 
+.bg-01 {
+  position: absolute;
+  right: 0px;
+  width: 1600px;
+  height: 900px;
+  padding: 0px;
+}
+
+@media (max-width: 768px) {
+  .bg-01 {
+    visibility: hidden;
+  }
+}
+
 /* *new section styles end */
 /* Custom Headings Styles */
