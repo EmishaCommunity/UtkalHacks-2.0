@@ -984,7 +984,6 @@ td {
 #howitworks {
   text-align: justify;
   text-justify: auto;
-  position: relative;
 }
 
 #about {
@@ -1159,61 +1158,7 @@ td {
     color: #f19d01;
     margin-left: 14em;
   }
-
-.bg-01 {
-  position: absolute;
-  right: 0px;
-  width: 1100px;
-  height: 900px;
-  padding: 0px;
-  z-index: 1;
-  top: 6rem;
 }
 
-@media (max-width: 768px) {
-  /* .bg-01 {
-    position: absolute;
-    width: 300px;
-    height: 200px;
-    right: 0px;
-    padding: 0px;
-
-  } */
-  /* .earth-01-container {
-    /* position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
-  /* z-index: 10; */
-
-  /* background-image: url('./img/assests/ch-round the earth-01.svg');
-    width: 300px; */
-  /* } */
-
-  .bg-01 {
-    visibility: hidden;
-    /* position: absolute;
-    width: 400px;
-    height: 200px;
-    margin-left: 5rem;
-    top: 26rem !important; */
-  }
-}
-
-.bg-02 {
-  position: absolute;
-  margin-left: -700px;
-  margin-top: 180px;
-  width: 600px;
-  height: 600px;
-  padding: 0px;
-}
-
-@media (max-width: 768px) {
-  .bg-02 {
-    visibility: hidden;
-  }
-}
 /* *new section styles end */
 /* Custom Headings Styles */
