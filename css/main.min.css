@@ -76,8 +76,8 @@ h6 {
 
 .rocketdiv {
   text-align: center;
-  display: block;
-  margin-top: 90px;
+  display: block !important;
+  margin-top: -42.1rem;
 }
 
 .rocketdiv img {
@@ -86,8 +86,14 @@ h6 {
 
 @media (max-width: 768px) {
   .rocketdiv {
+    visibility: hidden;
     height: 150px;
+    padding-top: 8rem;
+    /* margin-top: -30rem !important; */
+
+    /* margin-right: -17rem; */
   }
+
   .rocketdiv img {
     height: 350px;
   }
@@ -316,6 +322,16 @@ header.masthead p {
   }
 }
 
+.td-hk-broken-img {
+  margin-left: 9.9rem;
+}
+
+@media (max-width: 768px) {
+  .td-hk-broken-img {
+    margin-left: 0rem;
+  }
+}
+
 .speakers-box {
   max-width: 400px;
 }
@@ -463,8 +479,10 @@ header.masthead p {
     margin-right: 0;
   }
 }
+
 #sponsor {
 }
+
 #sponsors-box .startupodisha {
   margin-top: 0.4%;
 }
@@ -478,6 +496,7 @@ header.masthead p {
 #sponsors-box #web3img {
   max-width: 168px;
 }
+
 .download {
   background-color: rgb(92, 13, 240);
   padding: 6px 19px;
@@ -486,6 +505,7 @@ header.masthead p {
   margin-top: 4px;
   text-align: center;
 }
+
 .download a {
   color: white;
   font-size: 1.6em;
@@ -545,7 +565,7 @@ header.masthead p {
   padding: 1rem 2rem 0 2rem;
   text-align: left;
   padding-bottom: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .arrow,
@@ -1033,11 +1053,16 @@ td {
 }
 
 .typewriter h1 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 0.15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0.15em; /* Adjust as needed */
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em;
+  /* Adjust as needed */
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
@@ -1046,6 +1071,7 @@ td {
   from {
     width: 0;
   }
+
   to {
     width: 100%;
   }
@@ -1057,6 +1083,7 @@ td {
   to {
     border-color: transparent;
   }
+
   50% {
     border-color: orange;
   }
@@ -1095,8 +1122,89 @@ td {
   max-height: 180px;
   min-height: 64px;
 }
+
 #sponsors-box .secondtier img {
   max-width: 480px;
   max-height: 180px;
   min-height: 64px;
 }
+
+/* *new section styles start */
+
+.quote-text {
+  text-align: center;
+  padding: auto;
+  font-size: 2.5rem;
+}
+
+.quote-left {
+  /* position: absolute; */
+  /* padding: 2px; */
+  font-size: 2.2rem;
+  color: #f19d01;
+  margin-left: 5.2em;
+}
+
+.quote-right {
+  font-size: 2.2rem;
+  color: #f19d01;
+  margin-left: 25.5em;
+}
+
+.text-span {
+  color: #f19d01;
+}
+
+@media (max-width: 768px) {
+  .quote-left {
+    /* position: absolute; */
+    /* padding: 2px; */
+    font-size: 1.2rem;
+    color: #f19d01;
+    margin-left: 2.6em;
+  }
+
+  .quote-text {
+    text-align: center;
+    padding: auto;
+    font-size: 0.8rem;
+  }
+
+  .quote-right {
+    font-size: 1.2rem;
+    color: #f19d01;
+    margin-left: 14em;
+  }
+}
+
+.bg-01 {
+  position: absolute;
+  right: 0px;
+  width: 1600px;
+  height: 900px;
+  padding: 0px;
+}
+
+@media (max-width: 768px) {
+  .bg-01 {
+    visibility: hidden;
+  }
+}
+
+.bg-02 {
+  position: absolute;
+  margin-left: -700px;
+  margin-top: 180px;
+  width: 600px;
+  height: 600px;
+  padding: 0px;
+}
+
+@media (max-width: 768px) {
+  .bg-02 {
+    visibility: hidden;
+  }
+}
+
+/* *new section styles end */
+/* Custom Headings Styles */

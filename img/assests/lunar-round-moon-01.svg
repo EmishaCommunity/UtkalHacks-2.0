@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 768">
+  <defs>
+    <radialGradient id="radial-gradient" cx="-134.07" cy="1242.12" r="253.11" gradientTransform="matrix(-0.19, 0.98, -0.98, -0.19, 1301.08, 882.98)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fafafa"/>
+      <stop offset="0.09" stop-color="#f5f5f5" stop-opacity="0.98"/>
+      <stop offset="0.2" stop-color="#e7e7e7" stop-opacity="0.92"/>
+      <stop offset="0.32" stop-color="#d0d0d0" stop-opacity="0.83"/>
+      <stop offset="0.44" stop-color="#afafaf" stop-opacity="0.7"/>
+      <stop offset="0.56" stop-color="#848484" stop-opacity="0.53"/>
+      <stop offset="0.69" stop-color="#515151" stop-opacity="0.32"/>
+      <stop offset="0.82" stop-color="#151515" stop-opacity="0.08"/>
+      <stop offset="0.86" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="458.42" y1="242.57" x2="683.82" y2="485.52" gradientTransform="matrix(-0.6, 0.8, 0.8, 0.6, 386.53, -121.01)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.08" stop-color="#e1e1e4" stop-opacity="0.88"/>
+      <stop offset="0.28" stop-color="#9d9fa7" stop-opacity="0.62"/>
+      <stop offset="0.46" stop-color="#656874" stop-opacity="0.4"/>
+      <stop offset="0.63" stop-color="#3a3d4c" stop-opacity="0.23"/>
+      <stop offset="0.78" stop-color="#1a1f30" stop-opacity="0.1"/>
+      <stop offset="0.91" stop-color="#070c1e" stop-opacity="0.03"/>
+      <stop offset="1" stop-color="#000518" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <title>lunar-round-moon</title>
+  <g style="isolation: isolate">
+    <g id="moon">
+      <g id="Moon-2" data-name="Moon">
+        <circle cx="112.19" cy="515.16" r="252.13" transform="translate(-331.41 230.22) rotate(-45)" style="mix-blend-mode: screen;fill: url(#radial-gradient)"/>
+        <g>
+          <circle cx="114.29" cy="514.03" r="163.44" style="fill: #fafafa"/>
+          <path d="M132.54,364.25c81.67,19,144.67,123.4,135.34,204.75A163.44,163.44,0,1,0-48.26,495.29C-37.49,400.39,50.88,345.2,132.54,364.25Z" style="fill: #efeded;opacity: 0.46"/>
+          <g>
+            <g>
+              <circle cx="47.75" cy="391.43" r="20.12" transform="translate(-92.68 22.95) rotate(-13.91)" style="fill: #e0e0e0"/>
+              <ellipse cx="49" cy="391.62" rx="20.05" ry="18.85" transform="translate(-345.51 380.44) rotate(-81.24)" style="fill: #eee"/>
+            </g>
+            <g>
+              <path d="M155.42,598.68a28.13,28.13,0,1,1-33-22.25A28.13,28.13,0,0,1,155.42,598.68Z" style="fill: #e0e0e0"/>
+              <ellipse cx="129.54" cy="603.71" rx="26.36" ry="28.04" transform="translate(-112.75 35.78) rotate(-10.99)" style="fill: #eee"/>
+            </g>
+            <g>
+              <circle cx="218.62" cy="557.08" r="28.13" transform="translate(-365.25 688.34) rotate(-81.24)" style="fill: #e0e0e0"/>
+              <ellipse cx="220.37" cy="557.35" rx="28.04" ry="26.36" transform="translate(-364.03 690.29) rotate(-81.24)" style="fill: #eee"/>
+            </g>
+            <g>
+              <circle cx="36.31" cy="492.91" r="13.03" transform="translate(-306.75 137.12) rotate(-39.74)" style="fill: #e0e0e0"/>
+              <path d="M46.87,485.3A13,13,0,0,0,26.8,501.79,13,13,0,0,0,46.87,485.3Z" style="fill: #eee"/>
+            </g>
+            <g>
+              <path d="M100.58,574.2a13,13,0,1,1,1.79-18.34A13,13,0,0,1,100.58,574.2Z" style="fill: #e0e0e0"/>
+              <path d="M102.86,556.52A13,13,0,0,0,82.78,573a13,13,0,0,0,20.08-16.49Z" style="fill: #eee"/>
+            </g>
+            <g>
+              <path d="M154.86,551.65a6.51,6.51,0,1,1,.89-9.17A6.51,6.51,0,0,1,154.86,551.65Z" style="fill: #e0e0e0"/>
+              <path d="M156,542.81a6.51,6.51,0,1,0-1.14,8.84A6.51,6.51,0,0,0,156,542.81Z" style="fill: #eee"/>
+            </g>
+            <g>
+              <path d="M168.94,386.9a11,11,0,1,1,1.52-15.53A11,11,0,0,1,168.94,386.9Z" style="fill: #e0e0e0"/>
+              <path d="M170.87,371.93a11,11,0,1,0-1.93,15A11,11,0,0,0,170.87,371.93Z" style="fill: #eee"/>
+            </g>
+            <g>
+              <path d="M262.67,508.09a13,13,0,1,1,1.79-18.34A13,13,0,0,1,262.67,508.09Z" style="fill: #e0e0e0"/>
+              <path d="M265,490.41a13,13,0,1,0-2.28,17.68A13,13,0,0,0,265,490.41Z" style="fill: #eee"/>
+            </g>
+            <g>
+              <path d="M52.39,604.63a18.09,18.09,0,1,1,2.49-25.46A18.09,18.09,0,0,1,52.39,604.63Z" style="fill: #e0e0e0"/>
+              <ellipse cx="41.63" cy="591.53" rx="18.03" ry="16.95" transform="translate(-366.1 160.95) rotate(-39.41)" style="fill: #eee"/>
+            </g>
+            <g>
+              <path d="M6.88,595.24A10.86,10.86,0,0,1-8.4,593.75a10.85,10.85,0,0,1,1.5-15.28A10.86,10.86,0,0,1,8.38,580,10.86,10.86,0,0,1,6.88,595.24Z" style="fill: #e0e0e0"/>
+              <path d="M8.78,580.51a10.85,10.85,0,0,0-14.82-1,10.85,10.85,0,0,0-1.9,14.73,10.85,10.85,0,0,0,14.82,1A10.85,10.85,0,0,0,8.78,580.51Z" style="fill: #eee"/>
+            </g>
+            <g>
+              <path d="M111.73,370.27a9.77,9.77,0,1,1-6-12.41A9.77,9.77,0,0,1,111.73,370.27Z" style="fill: #e0e0e0"/>
+              <path d="M106.25,358.08a9.76,9.76,0,0,0-6.34,18.42,9.76,9.76,0,0,0,6.34-18.42Z" style="fill: #eee"/>
+            </g>
+            <g>
+              <path d="M129,404.77a9.77,9.77,0,1,1-6-12.41A9.77,9.77,0,0,1,129,404.77Z" style="fill: #e0e0e0"/>
+              <path d="M123.5,392.58A9.76,9.76,0,1,0,129,404.77,9.77,9.77,0,0,0,123.5,392.58Z" style="fill: #eee"/>
+            </g>
+            <g>
+              <path d="M217.68,415.1a11,11,0,1,1,1.52-15.52A11,11,0,0,1,217.68,415.1Z" style="fill: #e0e0e0"/>
+              <path d="M219.61,400.13a11,11,0,1,0-1.93,15A11,11,0,0,0,219.61,400.13Z" style="fill: #eee"/>
+            </g>
+            <g>
+              <path d="M171.1,418.44a9.22,9.22,0,1,1,1.27-13A9.23,9.23,0,0,1,171.1,418.44Z" style="fill: #e0e0e0"/>
+              <path d="M172.71,405.93a9.21,9.21,0,1,0-1.61,12.51A9.21,9.21,0,0,0,172.71,405.93Z" style="fill: #eee"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="lunar_orbiter" data-name="lunar orbiter">
+        <path d="M342.58,401.62s72.11,129.51-41.95,298l4-1.17S453,565.11,346.93,398.61Z" style="fill: url(#linear-gradient)"/>
+        <image id="lunar_orbiter-2" data-name="lunar orbiter" width="619" height="634" transform="matrix(-0.14, 0.1, 0.1, 0.14, 339.8, 274)" xlink:href="../SVG/1x/Asset%201.png"/>
+      </g>
+    </g>
+  </g>
+</svg>
