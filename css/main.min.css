@@ -357,7 +357,7 @@ header.masthead p {
 
 .schedule-box .nav-pills .nav-link.active,
 .schedule-box .nav-pills .show > .nav-link {
-  background-color: #00a7d3;
+  background-color: rgb(255, 166, 0);
   color: #fff !important;
 }
 
