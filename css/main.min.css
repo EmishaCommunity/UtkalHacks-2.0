@@ -10,7 +10,7 @@ body {
   font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica,
     Arial, sans-serif;
   overflow-x: hidden;
-  background: #000618;
+  background-image: linear-gradient(#020417, #010419) !important;
   /* background: linear-gradient(141deg, #010b2b 0%, #000411 51%, #000000 75%); */
   font-size: 18px;
 }
@@ -39,6 +39,7 @@ h6 {
 }
 
 @media (max-width: 768px) {
+
   h1,
   h2,
   h3,
@@ -49,6 +50,7 @@ h6 {
   }
 }
 
+/* 
 .bg-primary {
   background-color: #132141 !important;
   z-index: 111;
@@ -56,6 +58,50 @@ h6 {
 
 .bg-dark {
   background-color: #0d1833 !important;
+} */
+
+.grd-1 {
+  background-color: #010f48 !important;
+}
+
+.grd-2 {
+  background-image: linear-gradient(#010f48, #050d35);
+}
+
+.grd-3 {
+  background-image: linear-gradient(#050d35, #050c2f);
+}
+
+.grd-11 {
+  background-image: linear-gradient(#050c2f, #050c2f);
+}
+
+.grd-4 {
+  background-image: linear-gradient(#050c2f, #03071f);
+}
+
+.grd-5 {
+  background-image: linear-gradient(#03071f, #03071f);
+}
+
+.grd-6 {
+  background-image: linear-gradient(#03071f, #020415);
+}
+
+.grd-7 {
+  background-image: linear-gradient(#020415, #020415);
+}
+
+.grd-8 {
+  background-image: linear-gradient(#020415, #020417) !important;
+}
+
+.grd-9 {
+  background-image: linear-gradient(#020417, #010419) !important;
+}
+
+.grd-10 {
+  background-image: linear-gradient(#010419, #010310) !important;
 }
 
 #bg {
@@ -166,26 +212,26 @@ section {
   color: #fff;
 }
 
-#mainNav .navbar-nav > li.nav-item > a.nav-link,
-#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+#mainNav .navbar-nav>li.nav-item>a.nav-link,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
   font-size: 1rem;
   font-weight: 500;
   color: rgb(209, 137, 4);
 }
 
-#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
-#mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
   color: #fff;
 }
 
-#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
-#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
   color: rgb(209, 137, 4) !important;
   background-color: transparent;
 }
 
-#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
-#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active:hover {
   background-color: transparent;
 }
 
@@ -214,17 +260,17 @@ section {
     color: #fff;
   }
 
-  #mainNav .navbar-nav > li.nav-item > a.nav-link {
+  #mainNav .navbar-nav>li.nav-item>a.nav-link {
     padding: 0.5rem 1rem;
   }
 
-  #mainNav .navbar-nav > li.nav-item > a.nav-link,
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  #mainNav .navbar-nav>li.nav-item>a.nav-link,
+  #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
     color: rgba(255, 255, 255, 0.7);
   }
 
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
+  #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+  #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
     color: #fff;
   }
 
@@ -245,13 +291,13 @@ section {
     color: #203260;
   }
 
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link,
+  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
     color: #ffa600;
   }
 
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover,
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover {
+  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
     color: #fff;
   }
 }
@@ -356,7 +402,7 @@ header.masthead p {
 }
 
 .schedule-box .nav-pills .nav-link.active,
-.schedule-box .nav-pills .show > .nav-link {
+.schedule-box .nav-pills .show>.nav-link {
   background-color: rgb(255, 166, 0);
   color: #fff !important;
 }
@@ -383,23 +429,23 @@ header.masthead p {
   font-weight: 300;
 }
 
-.schedule-box .table-schedule > tbody > tr > td {
+.schedule-box .table-schedule>tbody>tr>td {
   border: none;
 }
 
-.schedule-box .table-schedule > tbody > tr > td:not(:last-child) {
+.schedule-box .table-schedule>tbody>tr>td:not(:last-child) {
   white-space: nowrap;
   padding-right: 16px;
   padding-left: 16px;
   text-align: left;
 }
 
-.schedule-box .table-schedule > tbody > tr > td:first-child {
+.schedule-box .table-schedule>tbody>tr>td:first-child {
   padding-left: 24px;
   padding-right: 32px;
 }
 
-.schedule-box .table-schedule > tbody > tr > td:last-child {
+.schedule-box .table-schedule>tbody>tr>td:last-child {
   width: 99%;
   text-align: left;
 }
@@ -409,7 +455,7 @@ header.masthead p {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.schedule-box .table-schedule > tbody > tr:nth-child(odd) {
+.schedule-box .table-schedule>tbody>tr:nth-child(odd) {
   background-color: rgba(0, 167, 211, 0.1);
 }
 
@@ -480,8 +526,7 @@ header.masthead p {
   }
 }
 
-#sponsor {
-}
+#sponsor {}
 
 #sponsors-box .startupodisha {
   margin-top: 0.4%;
@@ -698,16 +743,11 @@ header.masthead p {
 @font-face {
   font-family: FontAwesome;
   src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0);
-  src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0)
-      format("embedded-opentype"),
-    url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0)
-      format("woff2"),
-    url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0)
-      format("woff"),
-    url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0)
-      format("truetype"),
-    url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular)
-      format("svg");
+  src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"),
+    url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"),
+    url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"),
+    url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"),
+    url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -942,8 +982,7 @@ td {
 }
 
 @media screen and (max-width: 875px) {
-  .frameworksectionimg {
-  }
+  .frameworksectionimg {}
 }
 
 .frameworksection p {
@@ -1079,6 +1118,7 @@ td {
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
+
   from,
   to {
     border-color: transparent;
@@ -1180,7 +1220,7 @@ td {
 .bg-01 {
   position: absolute;
   right: 0px;
-  width: 1600px;
+  width: 1100px;
   height: 900px;
   padding: 0px;
 }
