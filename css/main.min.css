@@ -1400,3 +1400,98 @@ a > .event-apply-btn {
   top: 50%;
   outline: none;
 }
+
+/* *social-media-section start */
+
+.media-wrapper {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.flex-container {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  width: 60%;
+
+  /* background-color: #f1f1f1; */
+  /* padding-right: 20px; */
+}
+
+.link-container {
+  /* background-color: DodgerBlue; */
+  color: white;
+  width: 320px;
+  height: 100px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  /* margin-right: 20px; */
+}
+
+@media (max-width: 768px) {
+  .media-wrapper {
+    margin-top: 40px;
+    margin-right: 17rem;
+  }
+
+  .link-container {
+    /* background-color: DodgerBlue; */
+    /* color: white; */
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+
+    /* margin-right: 30px; */
+    /* padding-right: 10rem; */
+  }
+}
+
+/* .social-icon {
+  display: block;
+  width: 32px;
+  height: 52px;
+} */
+
+.b-1,
+.b-3,
+.b-5 {
+  background-color: #0b227a;
+}
+
+.b-2,
+.b-4,
+.b-6 {
+  background-color: #051452;
+}
+
+.tw-h:hover {
+  background-color: #00acee;
+}
+
+.tl-h:hover {
+  background-color: #0088cc;
+}
+
+.fb-h:hover {
+  background-color: #3b5998;
+}
+
+.i-h:hover {
+  background-color: #ce4712;
+}
+
+.link-h:hover {
+  background-color: #0e76a8;
+}
+
+.md-h:hover {
+  background-color: black;
+}
+
+.media-icons {
+  padding: auto;
+}
+
+/* *social-media-section end */
