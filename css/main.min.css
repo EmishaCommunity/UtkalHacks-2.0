@@ -664,8 +664,6 @@ header.masthead p {
 }
 
 .footer {
-  padding-bottom: 60px;
-  padding-top: 60px;
 }
 
 @media (max-width: 768px) {
@@ -692,69 +690,6 @@ header.masthead p {
     margin-top: 1rem !important;
     margin-bottom: 2rem;
   }
-}
-
-.footer .circle {
-  padding-left: 14%;
-}
-
-@media (max-width: 768px) {
-  .footer .circle {
-    display: none;
-  }
-}
-
-.footer img {
-  position: absolute;
-  /* Preserve aspect ratio */
-  width: 1000px;
-  height: 800ox;
-  align-content: ;
-}
-
-.footer .social-icons {
-  width: 20px;
-  margin-left: 10px;
-  height: 20px;
-  padding: 0;
-  background-repeat: no-repeat;
-  vertical-align: bottom;
-  display: inline-block;
-}
-
-.footer .social-icons:hover {
-  opacity: 0.7;
-}
-
-.footer .icon-instagram {
-  background-image: url(../img/instagram.svg);
-}
-
-.footer .icon-facebook {
-  background-image: url(../img/facebook.svg);
-}
-
-.footer .icon-twitter {
-  background-image: url(../img/twitter.svg);
-}
-
-.footer .icon-telegram {
-  background-image: url(../img/telegram.svg);
-  width: 19px;
-  height: 18px;
-}
-
-.footer .icon-medium {
-  background-image: url(../img/medium.svg);
-  height: 18px;
-}
-
-.footer .icon-slack {
-  background-image: url(../img/slack.svg);
-}
-
-.footer .icon-linkedin {
-  background-image: url(../img/linkedin.svg);
 }
 
 /*!
@@ -1514,8 +1449,8 @@ a > .event-apply-btn {
 /* *social-media-section end */
 
 /* *Emisha-logo-styles :start */
-.black-emisha-logo {
-  max-width: 100px;
-  height: auto;
+.black-emisha-logo img {
+  height: 50px;
+  width: 200px;
 }
 /* *Emisha-logo-styles :end */
