@@ -1068,6 +1068,14 @@ td {
   text-justify: auto;
 }
 
+@media (max-width: 768px) {
+  #about {
+    padding-top: 60px;
+    text-align: justify;
+    text-justify: auto;
+  }
+}
+
 /* Beta Badge */
 
 .badge {
