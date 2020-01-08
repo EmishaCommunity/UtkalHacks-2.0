@@ -95,16 +95,24 @@ h6 {
   background-image: linear-gradient(#020415, #020415);
 }
 
-.grd-8 {
+/* .grd-8 {
   background-image: linear-gradient(#020415, #020417) !important;
-}
+} */
 
 .grd-9 {
   background-image: linear-gradient(#020417, #010419) !important;
 }
 
+.grd-8 {
+  background-image: linear-gradient(#010310, #010310) !important;
+}
+
 .grd-10 {
   background-image: linear-gradient(#010419, #010310) !important;
+}
+
+.grd-13 {
+  background-image: linear-gradient(#020415, #020415) !important;
 }
 
 #bg {
@@ -1412,8 +1420,9 @@ a > .event-apply-btn {
 /* *social-media-section start */
 
 .media-wrapper {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  /* margin-top: 40px; */
+  padding-bottom: 40px;
+  padding: 40px;
 }
 .flex-container {
   margin-right: auto;
@@ -1499,7 +1508,14 @@ a > .event-apply-btn {
 }
 
 .media-icons {
-  padding: auto;
+  margin-top: 8px !important;
 }
 
 /* *social-media-section end */
+
+/* *Emisha-logo-styles :start */
+.black-emisha-logo {
+  max-width: 100px;
+  height: auto;
+}
+/* *Emisha-logo-styles :end */
