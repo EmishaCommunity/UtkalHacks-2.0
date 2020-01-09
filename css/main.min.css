@@ -1426,6 +1426,14 @@ a > .event-apply-btn {
     /* margin-right: 30px; */
     /* padding-right: 10rem; */
   }
+
+  .event-heading-text {
+    margin-left: 45px;
+  }
+
+  td-hk-broken-img {
+    margin-right: 15rem;
+  }
 }
 
 /* .social-icon {
