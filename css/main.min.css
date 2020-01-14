@@ -1552,6 +1552,7 @@ a > .event-apply-btn {
 }
 
 .prize-title {
+  padding: 12px;
   font-size: 1.8em;
   /* padding-top: 0.4em; */
   /* padding-bottom: 4px; */
