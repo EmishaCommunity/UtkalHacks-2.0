@@ -1525,6 +1525,18 @@ a > .event-apply-btn {
   margin-top: 10rem;
 }
 
+@media (min-width: 1281px) {
+  .prizes-container {
+    margin-top: 12rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .prizes-container {
+    margin-top: 12rem;
+  }
+}
+
 .prize-card {
   border-radius: 5px;
 }
